@@ -3,10 +3,10 @@
 ### Reading data into R ###
 
 ###Change the file path to match your location
-days <- read.csv("Datasets/Example_Data.csv", header = FALSE)
+days <- read.csv("Example_Data.csv", header = FALSE)
 
 ### Data with a header
-golf = read.csv("Datasets/GolfBals.csv",header=T)
+golf = read.csv("GolfBals.csv",header=T)
 
 
 ###Summary statistics on a particular variable
@@ -67,6 +67,7 @@ median(variable2)
 data = rnorm(50000)
 
 install.packages("sn")
+Yes
 require(sn)
 
 ?dsn
