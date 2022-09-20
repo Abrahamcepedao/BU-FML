@@ -38,7 +38,7 @@ dnorm(4000,mean=pop_mean,sd=pop_sd)
 pnorm(3750,mean=pop_mean,sd=pop_sd) - pnorm(3250,mean=pop_mean,sd=pop_sd)
 
 ###What percent of infants weigh ABOVE 4000 grams
-pnorm(4000,mean=pop_mean,sd=pop_sd,lower.tail=T)
+pnorm(4000,mean=pop_mean,sd=pop_sd,lower.tail=F)
 
 ###What value captures x % of the distribution? 
 #What value of newborn weight makes the P(X <= x) == p
@@ -62,7 +62,7 @@ pnorm(3837.245,mean=pop_mean,sd=pop_sd)
 
 ### What percent of newborns weigh less than 4000 grams?
 
-###Remember the pnorm answer uses an "idealized" view of the data
+###Remember the pnorm answer uses an "idealized" view of the data (guess)
 pnorm(4000,mean=pop_mean,sd=pop_sd)
 
 ###How many of our babies actually weighed less than 4000 grams?

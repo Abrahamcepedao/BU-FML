@@ -9,7 +9,7 @@ babyData <- rnorm(100, mean = 3500, sd=500)
 par(mfrow=c(1,2)) # Make device region 1 by 2
 
 # Here the first plot which is a histogram 
-hist(babyData, prob=TRUE, col="cyan", main="You Type Something Here")
+hist(babyData, prob=TRUE, col="cyan", main="Gaussian Distribution")
 
 # Line is not a plot command so that it goes to the previous plot command. 
 lines(density(babyData),lwd=3,col="red")

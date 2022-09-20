@@ -1,0 +1,74 @@
+---
+title: "Assignemnt 1 - Abraham Cepeda - U75425818"
+output: html_notebook
+---
+
+
+```{r Excercise 1}
+###1. Save the data to excel and read into R for analysis. You will need to reshape the data into a single vector. Each number corresponds to the duration of stay for one patient in the hospital
+
+#Read CSV data
+raw_data = read.csv('data.csv', header = FALSE)
+
+#Reshape data to a vector
+data = as.vector(as.matrix(raw_data))
+
+#Show data in a single vector
+print(data)
+
+```
+
+```{r Excercise 2}
+
+###2. Make a histogram of the duration of days of hospital stays. Ensure the histogram is labelled appropriately. Use a width of 1 day. Describe the shape center and spread of the data. Are there any outliers?
+
+#Plot histogram
+max_num = as.numeric(max(data)) # max number in data
+hist(data, main='Duration of days of hospital stays', xlab='Number of days', col='cyan', breaks=seq(0,max_num))
+
+#Description
+#The shape appears to have a normal distribution reaching it's maximum point at 4 days of stay. However, it has a right skewed tail due to several outliers to the right that go up to 15 days of stay.
+
+#One of the ways to see if there exists any outliers in a given dataset is through a boxplot. 
+
+boxplot(data)
+
+#After observing the boxplot, it is clear that there are outliers that range from 10 to 15.
+
+```
+
+```{r Excercise 3}
+
+###3. Find the mean, median, standard deviation, first and third quartiles, minimum and maximum of the durations of hospital stay in the sample
+mean(data) #get the mean
+median(data) #get the median
+sd(data) #get the standard deviation
+quantile(data) #get the quantiles
+min(data) #get the min value
+max(data) #get the max value
+
+##1. What is the best single number summary of the center of the distribution?
+#The median is what best describes the center of the distribution, since it does not get drag as much as the mean due to the tail to the right
+
+##2. What is the best single value number summary of the spread of the distribution?
+#The interquartile range is the best number summary, since it represents where the majority of the values fall.
+
+```
+
+```{r Excercise 4}
+library(scales)
+
+###Assume that the literature on this topic suggests that the distribution of days of hospital stay are normally distributed with a mean of 5 and a standard deviation of 3. Use R to determine the probabilities below based on the normal distribution:
+
+#1. What percentage of patients are in the hospital for less than a week?
+sds = (7 - 5)/3 # number of standars deviations away from the mean
+per = pnorm(sds)
+print(paste("R = ", label_percent(accuracy=0.01,decimal.mark = ".")(per)))
+
+#2.  If the published data are consistent with the truth, what is the probability that the sample mean in his sample will be greater than 7 days?
+sds2 = (7 - 5)/(3/sqrt(10))
+per2 = (1 - pnorm(sds2))
+print(paste("R = ", label_percent(accuracy=0.01,decimal.mark = ".")(per2)))
+
+#Since the investigator is trying to prove an increase in the days of stay due to a rise in hypervirulent strains, it is possible that his sample of 10 patients is biased in a way that proves his theory instead of being random. Additionally, a sample of size 10 does not reach the minimum (30) in order for it to fulfill the Central Limit Theorem requirements. Therefore, we can conclude that this experiment is biased and the limited size of the sample might produce inconsistent results.
+```
