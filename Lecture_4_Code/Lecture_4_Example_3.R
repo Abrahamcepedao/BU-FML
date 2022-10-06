@@ -6,6 +6,9 @@
 
 shark_len <- c(18.1, 23.4, 23.8, 24.1, 22.5, 19, 25.4, 23.1, 16.5, 26.7,60)
 
+#Critical value
+crit_t = qt(0.1,df=length(shark_len)-1,lower.tail = F)
+
 # calculate the t statistic 
 t <- (mean(shark_len) - 20)/(sd(shark_len)/sqrt(length(shark_len)))
 

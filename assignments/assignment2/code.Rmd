@@ -1,0 +1,100 @@
+---
+title: "Assignemnt 2 - Abraham Cepeda - U75425818"
+output: html_notebook
+---
+
+
+```{r Excercise 0}
+###1. Save the data to excel and read into R for analysis.
+
+#Read CSV data
+part = read.csv('data1.csv', header = FALSE) # participants data
+n_part = read.csv('data2.csv', header = FALSE) # non-participants data
+#Reshape data to a vector
+part = as.vector(as.matrix(part))
+n_part = as.vector(as.matrix(n_part))
+#Show data in a single vector
+print(part)
+print(n_part)
+
+```
+```{r Excercise 1}
+#Summarize the data by whether children participated in the meal preparation or not (i.e., report summary statistics by group).  Use an appropriately labelled table to show the results.  Also include a graphical presentation that shows the distribution of calories for participants vs. non-participants.  Describe the shape of each distribution and comment on the similarity (or lack thereof) between the distributions in each population.
+
+#1. Summary statistics by group
+summary(part)
+sd(part)
+summary(n_part)
+sd(n_part)
+#2. Histogram of each data set
+hist(part, main='Participants calorie intake', xlab='Caloric intake', col='cyan')
+hist(n_part, main='Non-participants calorie intake', xlab='Caloric intake', col='cyan')
+```
+``` {r Excercise 2}
+#Does the mean calorie consumption for those who participated in the meal preparation differ from 425?  Formally test at the α= 0.05 level using the 5 steps outlined in the module.
+
+#1. Hypothesis
+#1.1.1 ---> h0: μ = 425 (the mean calorie consumption is equal to 425)
+#1.1.2 ---> h1: μ ≠ 425  (the mean calorie consumption is not equal to 425)
+#1.2 alpha level ---> α = 0.05 
+
+#2. Select Test Statistic
+n = length(part)
+print(n)
+# Since n < 30 --->  = t = (x−μ)/(s/sqrt(n))
+
+#3. Decision Rule
+#---> α/2 = 0.025
+#---> df = 25-1 = 24. Critical value = 2.064
+#---> decision rule = Reject h0 if ∣t∣ ≥ 2.064 , Otherwise, do not reject h0
+
+#4. Compute test statistic and p-value
+t <- (mean(part) - 425) / (sd(part)/sqrt(length(part)))
+print(t)
+#5. Conclusion
+#We fail to reject the h0 since 0.302 is less than 2.064.
+#We fail to reject the null hypothesis that the mean calorie consumption is 425
+```
+
+
+
+``` {r Excercise 3}
+#Calculate a 90% confidence interval for the mean calorie intake for participants in the meal preparation.  Interpret the confidence interval.
+#df = 24
+t = 1.711 #critical value t based on df and 90%
+min = mean(part) - (t * (sd(part)/sqrt(length(part))))
+max = mean(part) + (t * (sd(part)/sqrt(length(part))))
+print(min)
+print(max)
+
+#We are 90% confident that the true mean of calorie consumption is between 395.23 and 467.57
+```
+
+
+``` {r Excercise 4}
+#Formally test whether or not participants consumed more calories than non-participants at the α=0.05 level using the 5 steps outlined in the module.
+
+#1. Hypothesis
+#1.1.1 ---> h0: μ1 = μ2 (participants consumed the same calories as non-participants)
+#1.1.2 ---> h1: μ1 > μ2  (participants consumed more calories than non-participants)
+#1.2 alpha level ---> α = 0.05 
+
+#2. Select Test Statistic
+n <- length(part)
+print(n)
+n2 <- length(n_part)
+print(n2)
+# Since n < 30 --->  = t = (x1-x2)/(sqrt((s1^2/n1) + s2^2/n2)
+
+#3. Decision Rule
+#---> α = 0.055
+#---> df = 25-1 = 24. Critical value = 1.711
+#---> decision rule = Reject h0 if ∣t∣ ≥ 1.711 , Otherwise, do not reject h0
+
+#4. Compute test statistic and p-value
+t <- (mean(part) - mean(n_part)) / (sqrt((sd(part) * sd(part) / n) + (sd(n_part) * sd(n_part) / n2)))
+print(t)
+#5. Conclusion
+#We reject the h0 since 2.82 is larger than 1.711.
+#We reject the null hypothesis the the mean calorie consumption of participants is larger than non-participants
+```
