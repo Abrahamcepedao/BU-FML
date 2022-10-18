@@ -9,7 +9,7 @@ bodymass <- c(82, 49, 53, 112, 47, 69, 77, 71, 62, 78)
 # Create a scatterplot 
 plot(bodymass, height)
 
-# A better scatterplot
+# A better scatterplot #pch = point type | cex = font size
 plot(bodymass, height, 
      pch = 16, cex = 1.3, col = "blue", main = "HEIGHT PLOTTED AGAINST BODY MASS", 
      xlab = "BODY MASS (kg)",
@@ -81,4 +81,7 @@ colnames(df2) = gsub("_new","",colnames(df2))
 # This is our predicted heights for each new value of bodymass
 new_heights = predict(mdl,df2)
 
+df2$predicted_height = new_heights
+
+plot(df2$predicted_height, df2$bodymass)
 

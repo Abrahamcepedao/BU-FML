@@ -59,4 +59,27 @@ plot(my.model)
 
 
 
+quiz = c(95,90,88,97,75,70,66,83,40,79)
+hw = c(93,88,80,96,77,80,63,93,70,82)
 
+cor(quiz,hw)
+
+#1.
+#h0 p = 0
+#h1 P not equal 0
+
+#2.
+#t-statistic, alpha = 0.05
+
+#3.
+qt(0.975, length(quiz)-2)
+#Receject h0 if |t| > 2.31
+
+#4.
+cor.test(quiz,hw)
+#t = 3.6302
+
+#5.
+# 3.63 > 2.31 reject h0
+# There is a linear associationnn between quiz scores and homework scores (r ) 
+# p-value = 0.007
