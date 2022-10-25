@@ -1,0 +1,104 @@
+---
+title: "MET CS 555 - Assignment 3 | U75425818"
+output: html_document
+date: '2022-10-23'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Read data
+
+```{r Excercise 1}
+
+data <- read.csv("data.csv", header = TRUE)
+attach(data)
+
+```
+
+## 2. Scatterplot
+
+```{r Excercise 2}
+
+require(ggplot2)
+ggplot(data, aes(x=meals,y=mercury)) + 
+  geom_point(shape=1,color="red") + xlab("Number of meals with fish") + ylab("Total Mercury (mg/g)") + xlim(c(0,max(meals))) + ylim(c(0,max(mercury))) + 
+  ggtitle("Scatterplot of number of meals with fish and the total mercury") + theme_bw(base_size=14) 
+
+#Description: There is a clear correlation between the number of meals with fish and the level of mercury in a person's head hair since as the amount meals increases the level of mercury increases as well.
+
+```
+
+## 3. Correlation coefficient
+```{r Excercise 3}
+
+sprintf("Correlation coefficient = %.7f", cor(meals, mercury))
+
+#Explanation: There is approximately a 70% percent correlation between the amount of meals with fish and the levels of mercury.
+
+```
+
+
+## 4. Least squares regression
+```{r Excercise 4}
+
+my.model<-lm(data$mercury~data$meals)
+
+ggplot(data, aes(x=meals,y=mercury)) + geom_point(shape=1,color="red") +
+  xlab("Number of meals with fish") + 
+  ylab("Total Mercury (mg/g)") + xlim(c(0,max(meals))) + ylim(c(0,max(mercury))) + 
+  ggtitle("Scatterplot of number of meals with fish and the total mercury") + theme_bw(base_size=14) + 
+  geom_abline(slope = my.model$coefficients[2],intercept=my.model$coefficients[1])
+
+```
+
+## 5. B1 & B0
+```{r Excercise 5}
+
+sprintf("β_0 = %.3f", my.model$coefficients[1])
+sprintf("β_1 = %.3f", my.model$coefficients[2])
+
+#Explanation: The β_0 of 1.688 means that the level of mercury when a person eats 0 meals with fish is 1.688 (mg/g). On the other hand, the β_1 of 0.276 means that the level of mercury increases by 0.276 (mg/g) for every meal with fish.
+
+```
+
+## 6. Test hypothesis
+```{r Excercise 6}
+
+#6.1 - Hypothesis
+#H0 ∶ β1 = 0 (there is no linear association) 
+#H1 ∶ β1 ≠ 0 (there is a linear association)
+#α = 0.05
+
+#6.2 - Test statistic
+#F-test
+#df1 = 1
+#df2 = 100-2 = 98
+
+#6.3 - Decision rule
+qf(.90, df1=1, df2=98)
+#Decision Rule: Reject H0 if F ≥ 2.75743 Otherwise, do not reject H0
+
+#6.4 - Compute the test statistic
+anova(my.model)
+summary(my.model)
+#Reject H0 since 93.689 ≥ 4.183.
+#We have significant evidence at the α = 0.10 level that β1 ≠ 0.There is evidence of a significant linear association between study time and exam score (here, p < 0.001 as calculated using software program).
+
+library(Metrics)
+
+#Root mean squared error (RMSE)
+pred <- predict(my.model, data.frame(mercury = data$mercury))
+sprintf("RMSE = %.6f", rmse(data$mercury, pred))
+
+#R^2 value
+sprintf("R^2 = %.6f", summary(my.model)$r.squared)
+
+#90% confidence interval β_1
+conf <- confint(my.model, level = .90)
+sprintf("Confidence intervals = (%.6f, %.6f)", conf[2], conf[4])
+
+#Description: An R-square value of 0.488754 means that there is a 48.87% of correlation between the variables. The root mean squared error (RMSE) of 1.798528 reflects the mean distance of the predicted values against the true values; in this case, the RMSE reflects that the linear model has a good accuracy. The confidence intervals of 0.228609 and 0.323292 means that we can say with 90% of confidence that β_1 lies between those values.
+
+```
