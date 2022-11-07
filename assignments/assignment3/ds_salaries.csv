@@ -1,0 +1,608 @@
+"work_year","experience_level","employment_type","job_title","salary_currency","employee_residence","remote_ratio","company_location","company_size","log_salary"
+2020,"MI","FT","Data Scientist","EUR","DE",0,"DE","L",11.2876922317909
+2020,"SE","FT","Machine Learning Scientist","USD","JP",0,"JP","S",12.4684369099977
+2020,"SE","FT","Big Data Engineer","GBP","GB",50,"GB","M",11.5993233204607
+2020,"MI","FT","Product Data Analyst","USD","HN",0,"HN","S",9.90348755253613
+2020,"SE","FT","Machine Learning Engineer","USD","US",50,"US","L",11.9183905730784
+2020,"EN","FT","Data Analyst","USD","US",100,"US","L",11.1844213979982
+2020,"SE","FT","Lead Data Scientist","USD","US",100,"US","S",12.1547793511426
+2020,"MI","FT","Data Scientist","HUF","HU",50,"HU","L",10.4838858796541
+2020,"MI","FT","Business Data Analyst","USD","US",100,"US","L",11.8130300574206
+2020,"SE","FT","Lead Data Engineer","USD","NZ",50,"NZ","S",11.7360690162844
+2020,"EN","FT","Data Scientist","EUR","FR",0,"FR","S",10.8458553041204
+2020,"MI","FT","Data Scientist","INR","IN",0,"IN","L",10.6085880072135
+2020,"EN","FT","Data Scientist","EUR","FR",0,"FR","M",10.5945325250042
+2020,"MI","FT","Lead Data Analyst","USD","US",100,"US","L",11.3736633976367
+2020,"MI","FT","Data Analyst","USD","US",100,"US","L",11.3504065354725
+2020,"MI","FT","Data Analyst","USD","PK",50,"PK","L",8.98719682066197
+2020,"EN","FT","Data Engineer","JPY","JP",100,"JP","S",10.6379925840196
+2020,"SE","FT","Big Data Engineer","EUR","PL",100,"GB","S",11.644365923114
+2020,"EN","FT","Data Science Consultant","INR","IN",50,"IN","M",8.64944877053671
+2020,"MI","FT","Lead Data Engineer","USD","PT",100,"US","M",10.9331069697173
+2020,"MI","FT","Machine Learning Engineer","CNY","CN",0,"CN","M",10.676623593166
+2020,"MI","FT","Product Data Analyst","INR","IN",100,"IN","L",8.71144331907547
+2020,"SE","FT","Data Engineer","EUR","GR",50,"GR","L",10.7768499063544
+2020,"MI","FT","BI Data Analyst","USD","US",0,"US","M",11.4927227576527
+2020,"MI","FT","Lead Data Scientist","USD","AE",0,"AE","L",11.6526874073454
+2020,"EX","FT","Director of Data Science","USD","US",100,"US","L",12.6915804613119
+2020,"EN","FT","Research Scientist","USD","NL",50,"NL","L",10.6454248972655
+2020,"SE","FT","Data Engineer","MXN","MX",0,"MX","S",10.4196290221244
+2020,"EN","CT","Business Data Analyst","USD","US",100,"US","L",11.5129254649702
+2020,"SE","FT","Machine Learning Manager","CAD","CA",50,"CA","L",11.670817707841
+2020,"MI","FT","Data Engineering Manager","EUR","DE",100,"DE","S",10.9904151739254
+2020,"EN","FT","Big Data Engineer","USD","US",100,"US","L",11.1562505210315
+2020,"SE","FT","Data Scientist","EUR","GR",100,"US","L",11.1335373765722
+2020,"MI","FT","Research Scientist","USD","US",0,"US","M",13.0170028617465
+2020,"MI","FT","Data Analyst","EUR","FR",50,"FR","L",10.7527620295575
+2020,"MI","FT","Data Engineer","EUR","AT",50,"AT","L",11.2135755876508
+2020,"MI","FT","Data Science Consultant","USD","US",100,"US","L",11.5424842672118
+2020,"EN","FT","Machine Learning Engineer","USD","US",50,"US","L",12.4292161968444
+2020,"EN","FT","Data Analyst","USD","NG",100,"NG","S",9.21034037197618
+2020,"EN","FT","Machine Learning Engineer","USD","US",100,"US","S",11.8350089641393
+2020,"MI","FT","Data Scientist","USD","PH",100,"US","S",10.7311656260537
+2020,"EX","FT","Data Engineering Manager","EUR","ES",50,"ES","L",11.2876922317909
+2020,"MI","FT","Machine Learning Infrastructure Engineer","EUR","PT",0,"PT","M",10.8233718199204
+2020,"MI","FT","Data Engineer","USD","US",100,"US","L",11.5711943730942
+2020,"MI","FT","Data Engineer","GBP","GB",50,"GB","L",11.634009712293
+2020,"EN","PT","ML Engineer","EUR","DE",100,"DE","S",9.67821674020574
+2020,"MI","FT","Data Scientist","GBP","GB",100,"GB","S",11.2510150974759
+2020,"SE","FT","Data Engineer","USD","US",100,"US","L",12.1441972418121
+2020,"MI","FT","Data Scientist","USD","US",100,"US","L",11.5617156291397
+2020,"MI","FT","Data Engineer","EUR","FR",50,"FR","L",11.1582342663926
+2020,"EN","FT","Data Analyst","INR","IN",0,"IN","S",8.71144331907547
+2020,"EN","FT","Data Analyst","USD","US",100,"US","L",11.418614785499
+2020,"EN","FT","AI Scientist","DKK","DK",50,"DK","S",10.7341332462817
+2020,"EN","FT","Data Engineer","EUR","PK",100,"DE","L",10.9103865182809
+2020,"SE","FL","Computer Vision Engineer","USD","RU",100,"US","S",11.0020998412042
+2020,"SE","FT","Principal Data Scientist","EUR","DE",100,"DE","M",11.9067295130956
+2020,"MI","FT","Data Scientist","EUR","ES",100,"ES","M",10.5655567775252
+2020,"MI","FT","Data Scientist","USD","US",100,"US","M",11.6784399034478
+2020,"SE","FT","Data Scientist","USD","US",50,"US","L",11.6952470217642
+2020,"MI","FT","Data Scientist","USD","US",100,"US","M",11.8375419852151
+2020,"MI","FT","Data Engineer","USD","US",100,"US","L",11.6082356447746
+2020,"MI","FT","Data Engineer","USD","ES",100,"US","M",11.7814247180052
+2020,"EN","PT","Data Scientist","EUR","IT",50,"IT","S",9.98363794671896
+2020,"SE","FT","Data Scientist","USD","US",100,"US","L",12.9287786283317
+2020,"SE","FT","Machine Learning Engineer","EUR","HR",100,"HR","S",10.7280576544565
+2020,"EN","FT","Data Scientist","EUR","DE",50,"DE","S",11.0465313137142
+2020,"EN","FT","Data Scientist","EUR","DE",0,"DE","S",10.8050300620614
+2020,"SE","FT","Data Science Manager","USD","US",100,"US","M",12.1558314290934
+2020,"EN","FT","Data Scientist","USD","US",100,"US","S",11.5617156291397
+2020,"SE","FT","Data Scientist","EUR","AT",0,"AT","S",11.4212157955421
+2020,"MI","FT","Data Scientist","EUR","FR",50,"LU","S",11.0465313137142
+2020,"MI","FT","Data Scientist","EUR","FR",50,"FR","S",10.6501044074497
+2021,"EN","FT","Research Scientist","GBP","GB",50,"GB","L",11.3208929086811
+2021,"EX","FT","BI Data Analyst","USD","IN",100,"US","L",11.9183905730784
+2021,"EX","FT","Head of Data","USD","US",100,"US","L",12.3673407931263
+2021,"SE","FT","Data Scientist","EUR","FR",50,"FR","L",10.8816632880823
+2021,"MI","FT","BI Data Analyst","USD","US",100,"US","M",11.5129254649702
+2021,"MI","PT","3D Computer Vision Researcher","INR","IN",50,"IN","M",8.59581951187143
+2021,"MI","CT","ML Engineer","USD","US",100,"US","L",12.5061772379805
+2021,"EN","FT","Data Analyst","USD","US",100,"US","M",11.289781913656
+2021,"SE","FT","Data Analytics Engineer","EUR","DE",100,"DE","L",11.2796936982972
+2021,"MI","FT","Data Engineer","USD","US",100,"US","L",11.8493977015914
+2021,"MI","FT","Applied Data Scientist","CAD","GB",50,"CA","L",10.9011370487781
+2021,"MI","FT","Machine Learning Engineer","EUR","ES",100,"ES","S",10.7638849523697
+2021,"EX","FT","Director of Data Science","EUR","IT",100,"PL","L",11.9425432025057
+2021,"MI","FT","Data Engineer","PLN","PL",100,"PL","L",10.2568169062238
+2021,"EN","FT","Data Analyst","EUR","FR",50,"FR","M",10.9870200437691
+2021,"MI","FT","Data Analytics Engineer","USD","US",100,"US","L",11.6082356447746
+2021,"SE","FT","Lead Data Analyst","USD","US",100,"US","L",12.0435537160324
+2021,"SE","FT","Data Analyst","USD","BG",100,"US","S",11.289781913656
+2021,"SE","FT","Marketing Data Analyst","EUR","GR",100,"DK","L",11.3924964317478
+2021,"EN","FT","Data Science Consultant","EUR","DE",100,"DE","S",11.2493895143465
+2021,"MI","FT","Lead Data Analyst","INR","IN",100,"IN","L",9.88374392349952
+2021,"SE","FT","Lead Data Engineer","USD","US",0,"US","L",12.5281561446993
+2021,"EN","FT","Data Scientist","INR","IN",50,"IN","L",10.3006180238542
+2021,"MI","FT","Cloud Data Engineer","SGD","SG",50,"SG","L",11.3996895753576
+2021,"EN","PT","AI Scientist","USD","BR",100,"US","S",9.39266192877014
+2021,"MI","FT","Financial Data Analyst","USD","US",100,"US","L",13.0170028617465
+2021,"EN","FT","Computer Vision Software Engineer","USD","US",100,"US","M",11.1562505210315
+2021,"MI","FT","Computer Vision Software Engineer","EUR","DE",100,"US","S",11.4694541307134
+2021,"MI","FT","Data Analyst","USD","US",0,"US","L",11.2252433925184
+2021,"SE","FT","Data Engineer","USD","US",100,"US","L",11.9183905730784
+2021,"MI","FT","BI Data Analyst","HUF","HU",50,"US","L",10.4984429053295
+2021,"MI","FT","Data Analyst","USD","US",0,"US","L",11.0348896640272
+2021,"MI","FT","Data Scientist","USD","US",0,"US","L",11.1982147201305
+2021,"MI","FT","Data Analyst","GBP","GB",50,"GB","L",10.849705950652
+2021,"MI","FT","Research Scientist","CAD","CA",100,"CA","L",12.1412247432058
+2021,"SE","FT","Data Engineer","USD","US",100,"US","S",11.6526874073454
+2021,"SE","FT","Data Engineer","USD","US",100,"US","M",11.9183905730784
+2021,"EN","FT","Data Engineer","INR","IN",100,"IN","L",10.3231185161172
+2021,"SE","FT","Machine Learning Engineer","EUR","DE",50,"DE","L",11.4570321329297
+2021,"SE","FT","Director of Data Engineering","GBP","GB",100,"GB","M",11.6393466397996
+2021,"SE","FT","Lead Data Engineer","GBP","GB",100,"GB","S",11.5440364599953
+2021,"EN","PT","AI Scientist","USD","PK",100,"US","M",9.39266192877014
+2021,"MI","FT","Data Engineer","EUR","NL",100,"NL","L",10.7230691264923
+2021,"EN","FT","Machine Learning Scientist","USD","US",100,"US","L",12.3238556811866
+2021,"MI","FT","Data Scientist","USD","NG",100,"NG","L",10.8197782844103
+2021,"MI","FT","Data Science Engineer","EUR","GR",100,"GR","M",10.6013486053223
+2021,"EN","FT","Data Analyst","USD","US",100,"US","S",11.4075649493124
+2021,"MI","FT","Data Engineer","USD","US",100,"US","L",12.2060726455302
+2021,"MI","FT","Big Data Engineer","USD","ES",50,"RO","M",11.0020998412042
+2021,"SE","FT","Principal Data Engineer","USD","US",100,"US","M",12.2060726455302
+2021,"EN","FT","Data Analyst","USD","US",100,"US","M",10.8197782844103
+2021,"EN","FT","Applied Data Scientist","GBP","GB",0,"GB","L",11.6085719518534
+2021,"EN","PT","Data Analyst","EUR","ES",50,"ES","M",9.24512819746185
+2021,"MI","FT","Principal Data Scientist","USD","US",100,"US","L",11.9250351157971
+2021,"SE","FT","Machine Learning Scientist","USD","US",50,"US","S",11.6952470217642
+2021,"MI","FT","Data Scientist","INR","IN",0,"IN","S",9.15546171046619
+2021,"EN","FT","Machine Learning Engineer","USD","IN",100,"IN","S",9.90348755253613
+2021,"SE","FT","Lead Data Scientist","INR","IN",50,"IN","L",10.6107841562005
+2021,"EN","FT","Machine Learning Developer","USD","IQ",50,"IQ","S",11.5129254649702
+2021,"EN","FT","Data Scientist","EUR","FR",50,"FR","M",10.8126731022802
+2021,"MI","FT","Applied Machine Learning Scientist","USD","VN",100,"US","M",10.5558127385758
+2021,"SE","FT","Computer Vision Engineer","USD","BR",100,"BR","M",10.0858091093301
+2021,"EN","FT","Data Scientist","USD","US",0,"US","S",11.5129254649702
+2021,"MI","FT","Data Analyst","USD","US",100,"US","M",11.4075649493124
+2021,"MI","FT","ML Engineer","JPY","JP",50,"JP","S",11.0621125111104
+2021,"MI","FT","ML Engineer","JPY","JP",50,"JP","S",11.2562768350986
+2021,"SE","FT","Principal Data Scientist","USD","US",0,"US","L",12.3013828253345
+2021,"EN","FT","Data Scientist","USD","US",100,"US","M",11.289781913656
+2021,"MI","FT","Data Analyst","USD","US",100,"US","L",11.8130300574206
+2021,"SE","FT","Data Science Manager","USD","US",0,"US","L",12.3883942023241
+2021,"SE","FT","Data Engineering Manager","USD","US",0,"US","L",11.9183905730784
+2021,"MI","FT","Data Scientist","USD","US",100,"US","S",11.3205535723228
+2021,"MI","FT","Data Engineer","USD","US",100,"US","L",11.5129254649702
+2021,"SE","FT","Machine Learning Engineer","EUR","BE",50,"BE","M",11.3235067830576
+2021,"MI","FT","Research Scientist","EUR","FR",50,"FR","M",11.0453029985049
+2021,"MI","FT","Data Engineer","USD","US",100,"US","L",11.4075649493124
+2021,"SE","FT","Data Engineering Manager","USD","US",100,"US","L",11.9381932003746
+2021,"SE","FT","Cloud Data Engineer","USD","BR",100,"US","S",11.982929094216
+2021,"SE","FT","Director of Data Science","USD","JP",0,"JP","S",12.0317192583854
+2021,"MI","FT","Data Scientist","USD","US",100,"US","M",11.9183905730784
+2021,"MI","FT","Data Scientist","CAD","CA",100,"CA","L",11.2355105048742
+2021,"EN","FT","Data Scientist","USD","UA",100,"UA","L",9.503009985939
+2021,"SE","FT","Data Science Manager","USD","US",100,"US","L",11.8775685785581
+2021,"SE","FT","Data Science Engineer","CAD","CA",50,"CA","L",11.7536810106012
+2021,"MI","FT","Data Scientist","SGD","SG",100,"IL","M",11.6873744475456
+2021,"MI","FT","Applied Machine Learning Scientist","USD","US",50,"US","L",12.9551274580284
+2021,"SE","FT","Data Analytics Manager","USD","US",100,"US","M",11.6952470217642
+2021,"EN","FT","Machine Learning Engineer","USD","US",100,"US","S",11.7360690162844
+2021,"EX","FT","Head of Data","USD","RU",50,"RU","L",12.3458345879053
+2021,"EX","FT","Head of Data Science","USD","RU",0,"RU","M",11.3504065354725
+2021,"MI","FT","Data Engineer","EUR","MT",50,"MT","L",10.2530522786797
+2021,"EN","FT","Data Science Consultant","EUR","DE",50,"DE","L",11.0639942447418
+2021,"EX","FT","Director of Data Science","EUR","DE",50,"DE","M",11.7754897094404
+2021,"SE","FT","Data Specialist","USD","US",100,"US","L",12.0137007528827
+2021,"EN","FT","Data Engineer","USD","US",100,"US","L",11.289781913656
+2021,"EX","FT","Director of Data Science","USD","US",0,"US","L",12.4292161968444
+2021,"EN","FT","BI Data Analyst","USD","US",50,"US","S",10.9150884642146
+2021,"MI","FT","Data Architect","USD","US",100,"US","L",11.9183905730784
+2021,"MI","FT","Data Architect","USD","US",100,"US","L",12.0435537160324
+2021,"MI","FT","Data Engineer","GBP","GB",100,"GB","L",11.3208929086811
+2021,"EN","FT","Data Analyst","USD","US",100,"US","S",11.0020998412042
+2021,"SE","FT","Principal Data Scientist","USD","US",100,"US","L",12.3673407931263
+2021,"SE","FT","Research Scientist","EUR","PT",50,"PT","L",11.0146375809022
+2021,"SE","FT","Data Engineering Manager","USD","US",100,"US","L",12.0668105781967
+2021,"MI","FT","Data Scientist","MXN","MX",0,"MX","S",7.95822719232231
+2021,"MI","FT","Data Scientist","CLP","CL",100,"CL","L",10.5975842821317
+2021,"EN","FT","Machine Learning Engineer","USD","US",50,"US","S",11.3022044336546
+2021,"MI","FT","Data Scientist","INR","IN",100,"US","S",8.64453043987743
+2021,"MI","FT","Big Data Engineer","INR","IN",0,"IN","L",10.0261917925116
+2021,"MI","FT","Data Scientist","EUR","DE",50,"DE","L",11.415687428043
+2021,"MI","FT","Data Engineer","EUR","RO",0,"US","L",10.1660441062072
+2021,"SE","FT","Finance Data Analyst","GBP","GB",50,"GB","L",11.0332108362293
+2021,"MI","FL","Machine Learning Scientist","USD","PK",50,"PK","M",9.39266192877014
+2021,"MI","FT","Data Engineer","USD","IR",100,"IR","M",8.29404964010203
+2021,"SE","FT","Data Analytics Engineer","USD","VN",100,"GB","M",10.8197782844103
+2021,"EX","FT","Data Science Consultant","EUR","FR",100,"ES","S",11.1525436591002
+2021,"SE","FT","Data Engineer","EUR","RO",50,"GB","S",11.2493895143465
+2021,"MI","FT","Machine Learning Engineer","USD","JP",50,"JP","S",11.2118203721863
+2021,"SE","FT","Data Science Manager","USD","US",100,"FR","L",11.9316357998284
+2021,"EN","FT","Machine Learning Engineer","USD","CO",50,"CO","M",9.99168156327204
+2021,"MI","FT","Big Data Engineer","USD","MD",0,"MD","S",9.7981270368783
+2021,"SE","FT","Data Science Manager","USD","US",100,"US","L",12.0668105781967
+2021,"SE","FT","Research Scientist","CAD","CA",50,"CA","L",11.4732798615639
+2021,"MI","FT","Data Scientist","USD","US",50,"US","L",11.8981878657609
+2021,"EN","FT","BI Data Analyst","USD","KE",100,"KE","S",9.13475438501959
+2021,"SE","FT","Machine Learning Engineer","INR","IN",100,"IN","L",10.0999585324345
+2021,"SE","FT","Data Science Manager","INR","IN",50,"US","L",10.8984785529539
+2021,"EN","FT","Data Science Consultant","USD","US",100,"US","S",11.4075649493124
+2021,"MI","FT","Data Scientist","EUR","DE",50,"AT","M",11.0262557244153
+2021,"SE","FT","Machine Learning Infrastructure Engineer","USD","US",100,"US","M",12.1807548375459
+2021,"MI","FT","Data Scientist","EUR","ES",100,"ES","L",10.5407255386566
+2021,"SE","FT","Research Scientist","USD","FR",100,"US","S",10.8197782844103
+2021,"MI","FT","Data Scientist","USD","US",100,"US","L",11.982929094216
+2021,"MI","FT","Data Scientist","BRL","BR",0,"BR","S",9.46506010672514
+2021,"SE","FT","Machine Learning Engineer","USD","US",100,"US","L",12.2060726455302
+2021,"SE","FT","Data Engineer","USD","US",0,"US","M",12.0137007528827
+2021,"MI","FL","Data Engineer","USD","IT",0,"US","L",9.90348755253613
+2021,"SE","FT","Data Analytics Manager","USD","US",0,"US","L",11.6952470217642
+2021,"MI","FT","Machine Learning Engineer","EUR","SI",50,"SI","L",10.1195259217203
+2021,"MI","FT","Research Scientist","EUR","FR",50,"FR","S",10.9461994592397
+2021,"MI","FT","Data Engineer","GBP","HK",50,"GB","S",11.0977432987987
+2021,"EN","FT","Big Data Engineer","INR","IN",0,"CH","L",8.67965211911394
+2021,"EN","FT","Machine Learning Engineer","EUR","DE",50,"DE","M",10.1195259217203
+2021,"SE","FT","Principal Data Engineer","USD","US",100,"US","L",12.1281111040605
+2021,"EN","PT","Computer Vision Engineer","DKK","DK",50,"DK","S",10.2614766326196
+2021,"MI","FT","Data Scientist","EUR","DE",50,"DE","L",11.415687428043
+2021,"MI","FT","Machine Learning Engineer","EUR","BE",100,"BE","M",11.3924964317478
+2021,"SE","FT","Data Analytics Manager","USD","US",100,"US","L",11.8493977015914
+2021,"MI","FT","Machine Learning Engineer","PLN","PL",100,"PL","L",10.749291440359
+2021,"MI","FT","Data Scientist","GBP","GB",50,"GB","L",11.6691939007685
+2021,"MI","FT","Data Scientist","INR","IN",0,"IN","M",10.4284527398558
+2021,"MI","FT","Data Scientist","GBP","GB",50,"GB","L",10.9376679810448
+2021,"SE","FT","Machine Learning Scientist","USD","US",100,"CA","L",12.3238556811866
+2021,"EX","CT","Principal Data Scientist","USD","US",100,"US","S",12.9384405392434
+2021,"SE","FT","Data Scientist","CAD","CA",100,"CA","S",11.3821103798399
+2021,"MI","FT","Data Scientist","EUR","DE",50,"DE","L",11.3924964317478
+2021,"SE","FT","Data Scientist","USD","US",0,"US","L",11.8130300574206
+2021,"SE","FT","Data Analyst","CAD","CA",100,"CA","M",11.1814447499516
+2021,"EN","FT","Big Data Engineer","INR","IN",100,"IN","L",9.69449342432634
+2021,"SE","FT","ML Engineer","USD","US",100,"US","S",12.4529327234617
+2021,"SE","FT","Director of Data Engineering","USD","US",100,"US","L",12.2060726455302
+2021,"SE","FT","Data Analyst","USD","US",100,"US","L",12.2060726455302
+2021,"MI","FT","Data Architect","USD","US",100,"US","L",12.1007121298723
+2021,"MI","FT","Head of Data Science","USD","US",0,"US","S",11.6082356447746
+2021,"MI","FT","Research Scientist","CAD","CA",100,"CA","M",11.0636651968624
+2021,"MI","FT","Data Scientist","EUR","ES",100,"ES","M",10.7538307711093
+2021,"EN","FT","Data Scientist","USD","VN",0,"VN","M",8.29404964010203
+2021,"EN","FT","Data Engineer","INR","IN",50,"IN","M",9.98216009118743
+2021,"SE","FT","Data Scientist","CAD","CA",100,"CA","L",11.5491706016374
+2021,"MI","FT","Data Analyst","USD","US",100,"US","L",11.289781913656
+2021,"MI","FT","Data Engineer","USD","US",100,"US","L",11.6082356447746
+2021,"SE","FT","Data Scientist","USD","US",100,"US","L",12.0137007528827
+2021,"EN","FT","AI Scientist","INR","IN",100,"AS","S",9.80106715493666
+2021,"MI","FT","Data Engineer","GBP","GB",50,"GB","L",11.1873615160565
+2021,"EN","FT","Data Scientist","EUR","FR",50,"FR","L",10.5089776931655
+2021,"MI","FT","Data Engineer","TRY","TR",0,"TR","M",9.4012086347386
+2021,"SE","FT","Data Engineer","GBP","GB",50,"GB","L",11.4750366644274
+2021,"SE","FT","Principal Data Analyst","USD","US",100,"US","M",12.0435537160324
+2021,"MI","FT","Data Scientist","USD","US",50,"US","L",11.6526874073454
+2021,"EN","FT","Data Scientist","USD","US",100,"US","S",11.4075649493124
+2021,"EX","FT","Principal Data Engineer","USD","US",100,"US","L",13.3046849341983
+2021,"EN","FT","Data Scientist","INR","IN",100,"IN","M",10.2541092122618
+2021,"MI","FT","Data Analyst","USD","US",100,"US","L",11.4403547721354
+2021,"SE","FT","Big Data Architect","CAD","CA",50,"CA","M",11.509951045768
+2021,"MI","FT","Data Engineer","USD","US",100,"US","L",12.2060726455302
+2021,"SE","FT","Principal Data Scientist","EUR","DE",100,"DE","M",12.0654418257904
+2021,"SE","FT","Machine Learning Engineer","USD","US",50,"US","L",12.1281111040605
+2021,"EX","FT","Director of Data Science","EUR","DE",0,"DE","L",11.8624972410379
+2021,"MI","FT","Data Scientist","USD","US",50,"US","L",11.7752897294377
+2021,"SE","FT","Data Analyst","EUR","DE",50,"DE","L",11.0639942447418
+2021,"MI","FT","Data Scientist","INR","IN",100,"IN","S",9.73530555929589
+2021,"SE","FT","Machine Learning Engineer","INR","IN",0,"IN","L",11.1014171333148
+2021,"MI","FT","Data Scientist","EUR","RS",100,"DE","S",10.1476878463759
+2021,"SE","FT","Lead Data Engineer","USD","PR",50,"US","S",11.982929094216
+2021,"MI","FT","Data Engineer","USD","US",0,"US","M",11.4419663760297
+2021,"MI","FT","Data Engineer","USD","US",0,"US","M",11.6242432011022
+2021,"MI","FT","Data Engineer","TRY","TR",100,"TR","M",10.2405310545256
+2021,"EN","FT","Data Engineer","EUR","DE",50,"DE","M",11.0823425288804
+2021,"EN","FT","Data Engineer","USD","US",100,"US","L",11.1913418408428
+2021,"SE","FT","Computer Vision Engineer","BRL","BR",0,"BR","M",9.84728750284793
+2021,"EN","FT","Data Science Consultant","EUR","DE",0,"DE","L",11.2493895143465
+2021,"EN","FT","Machine Learning Engineer","USD","NL",100,"DE","S",11.3504065354725
+2021,"SE","FT","Data Scientist","EUR","FR",50,"FR","M",11.2604045949453
+2021,"EN","FT","Data Scientist","USD","US",100,"US","M",11.5129254649702
+2021,"EN","FT","Data Scientist","USD","US",50,"US","L",10.9681982895286
+2021,"SE","FT","AI Scientist","USD","ES",100,"ES","L",10.9150884642146
+2021,"SE","FT","Data Scientist","TRY","TR",50,"TR","L",9.91200120830133
+2021,"EN","FT","Business Data Analyst","EUR","LU",100,"LU","L",10.9870200437691
+2021,"MI","FT","Data Engineer","USD","US",100,"US","L",11.6262541502772
+2021,"EN","FT","Research Scientist","USD","JE",0,"CN","L",11.5129254649702
+2021,"MI","PT","Data Engineer","EUR","NL",100,"NL","L",11.1525436591002
+2021,"SE","CT","Staff Data Scientist","USD","US",100,"US","M",11.5617156291397
+2021,"MI","FT","Research Scientist","USD","CZ",50,"CZ","L",11.1562362352152
+2021,"SE","FT","Data Science Manager","INR","IN",50,"IN","L",11.4580996226864
+2021,"SE","FT","Head of Data","EUR","SI",100,"SI","L",11.5409199374897
+2021,"MI","FT","Data Scientist","USD","US",50,"US","L",11.5991031612113
+2021,"MI","FT","Machine Learning Engineer","EUR","IT",50,"IT","L",10.8408350269359
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.8130300574206
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.9511803959014
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.7002345632752
+2022,"MI","FT","Data Scientist","USD","US",0,"US","M",11.7752897294377
+2022,"MI","FT","Data Scientist","USD","US",0,"US","M",11.4075649493124
+2022,"MI","FT","Data Engineer","USD","US",100,"US","M",12.0435537160324
+2022,"MI","FT","Data Engineer","USD","US",100,"US","M",11.9183905730784
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.5337080041528
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.3492293722994
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.8249586282858
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.5065048971673
+2022,"SE","FT","Data Scientist","GBP","GB",0,"GB","M",11.6766501672318
+2022,"SE","FT","Data Scientist","GBP","GB",0,"GB","M",11.5588734988729
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.8913619006905
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.7199396343546
+2022,"EN","FT","Data Engineer","GBP","GB",100,"GB","M",10.865726318313
+2022,"SE","FT","Data Analyst","USD","US",0,"US","M",11.5028751291167
+2022,"SE","FT","Data Analyst","USD","US",0,"US","M",11.6613454700885
+2022,"MI","FT","Data Analyst","USD","US",0,"US","M",11.5736442000049
+2022,"MI","FT","Data Analyst","USD","US",0,"US","M",11.7479975871497
+2022,"EX","FT","Data Engineer","USD","US",100,"US","M",12.3966930051388
+2022,"EX","FT","Data Engineer","USD","US",100,"US","M",12.2060726455302
+2022,"MI","FT","Data Scientist","GBP","GB",0,"GB","M",11.0888584084624
+2022,"MI","FT","Data Scientist","GBP","GB",0,"GB","M",10.5780378785637
+2022,"MI","FT","Data Engineer","GBP","GB",0,"GB","M",11.2711850591236
+2022,"MI","FT","Data Engineer","GBP","GB",0,"GB","M",10.865726318313
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.0150331981165
+2022,"EN","FT","Data Engineer","GBP","GB",100,"GB","M",10.7321921968516
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.696579466998
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.4111141988235
+2022,"SE","FT","Data Engineer","USD","US",0,"US","M",12.1114322413761
+2022,"SE","FT","Data Engineer","USD","US",0,"US","M",11.7929785102575
+2022,"SE","FT","Data Engineer","USD","US",0,"US","M",12.3018827003761
+2022,"SE","FT","Data Engineer","USD","US",0,"US","M",11.9834289692576
+2022,"SE","FT","Data Scientist","USD","US",0,"US","L",12.1007121298723
+2022,"SE","FT","Data Scientist","USD","US",0,"US","L",11.6952470217642
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.7295679299421
+2022,"EX","FT","Data Analyst","USD","US",100,"US","M",11.7752897294377
+2022,"EX","FT","Data Analyst","USD","US",100,"US","M",11.6082356447746
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",12.0435537160324
+2022,"MI","FT","Data Analyst","USD","US",100,"US","M",11.657025808944
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.6342577501378
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.4111141988235
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.6342577501378
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.4111141988235
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",12.0161220615717
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.7929785102575
+2022,"MI","FT","Data Analyst","USD","US",100,"US","M",12.0257490913989
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",12.404513584204
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.8248122261188
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.6016686748046
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.7665982213193
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.4478534682265
+2022,"EX","FT","Head of Data Science","USD","US",100,"US","M",12.3194013308372
+2022,"EX","FT","Head of Data Science","USD","US",100,"US","M",12.0309749338255
+2022,"EX","FT","Analytics Engineer","USD","US",100,"US","M",12.0725412529057
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.9614500625388
+2022,"SE","FT","Data Engineer","USD","US",0,"US","M",11.597266613404
+2022,"SE","FT","Data Scientist","USD","US",0,"US","M",11.4674049496684
+2022,"SE","FT","Data Engineer","USD","US",0,"US","L",11.6351430976945
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.8130300574206
+2022,"SE","FT","Data Science Manager","USD","US",100,"US","M",11.9912816145961
+2022,"SE","FT","Data Science Manager","USD","US",100,"US","M",11.8287648726303
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.0257490913989
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.7199396343546
+2022,"SE","FT","Data Engineer","GBP","GB",0,"GB","M",11.2711850591236
+2022,"SE","FT","Data Engineer","GBP","GB",0,"GB","M",11.0888584084624
+2022,"SE","FT","Data Scientist","USD","US",0,"US","M",11.9183905730784
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.2619802774685
+2022,"SE","FT","Data Architect","USD","CA",100,"CA","M",12.1673318172137
+2022,"SE","FT","Data Architect","USD","CA",100,"CA","M",11.4153126361032
+2022,"SE","FT","Data Analyst","USD","CA",100,"CA","M",11.7752897294377
+2022,"SE","FT","Data Analyst","USD","CA",100,"CA","M",11.0235351219243
+2022,"SE","FT","Data Analyst","USD","CA",100,"CA","M",11.7752897294377
+2022,"SE","FT","Data Analyst","USD","CA",100,"CA","M",11.0235351219243
+2022,"SE","FT","Data Engineer","USD","US",0,"US","L",11.982929094216
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.8393473657379
+2022,"SE","FT","Data Engineer","USD","US",0,"US","M",11.8204101647182
+2022,"MI","FT","Data Analyst","USD","US",0,"US","S",10.9681982895286
+2022,"EX","FT","Analytics Engineer","USD","US",100,"US","M",11.8130300574206
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.0435537160324
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.7199396343546
+2022,"SE","FT","Machine Learning Engineer","USD","US",0,"US","M",12.152935547117
+2022,"SE","FT","Machine Learning Engineer","USD","US",0,"US","M",12.0136765101646
+2022,"MI","FT","ETL Developer","EUR","GR",0,"GR","M",10.9143063402536
+2022,"MI","FT","ETL Developer","EUR","GR",0,"GR","M",10.9143063402536
+2022,"EX","FT","Lead Data Engineer","CAD","CA",100,"CA","S",11.680023394826
+2022,"SE","FT","Data Analyst","USD","US",0,"US","M",11.7905572015685
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",12.0161220615717
+2022,"SE","FT","Data Architect","USD","US",100,"US","M",12.2490123960214
+2022,"SE","FT","Data Architect","USD","US",100,"US","M",11.9036152874962
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.8276924082308
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.5285034949335
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.7665982213193
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.4478534682265
+2022,"EX","FT","Head of Machine Learning","INR","IN",50,"IN","L",11.2776966805199
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.7929785102575
+2022,"EN","FT","Machine Learning Engineer","GBP","GB",100,"GB","L",10.5267486056319
+2022,"SE","FT","Data Analyst","USD","US",0,"US","M",12.0076217068063
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.9511803959014
+2022,"MI","FT","Machine Learning Engineer","GBP","GB",0,"GB","M",11.7307187289891
+2022,"MI","FT","Machine Learning Engineer","GBP","GB",0,"GB","M",11.4943337042791
+2022,"MI","FT","AI Scientist","USD","US",0,"US","M",11.6952470217642
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.6342577501378
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.4111141988235
+2022,"SE","FT","Data Analytics Manager","USD","US",100,"US","M",11.8844890214027
+2022,"SE","FT","Data Analytics Manager","USD","US",100,"US","M",11.5655179150894
+2022,"MI","FT","Machine Learning Engineer","EUR","FR",100,"DE","M",11.38431906748
+2022,"MI","FT","Data Engineer","GBP","GB",0,"GB","M",11.6766501672318
+2022,"SE","FT","Data Scientist","USD","US",100,"US","L",12.2797876833525
+2022,"SE","FT","Data Scientist","USD","US",100,"US","L",11.9716153343157
+2022,"SE","FT","Data Engineer","USD","US",100,"US","L",12.2505678854167
+2022,"SE","FT","Data Engineer","USD","US",100,"US","L",11.9485964151355
+2022,"SE","FT","Data Analyst","USD","US",0,"US","M",11.660776342649
+2022,"SE","FT","Data Analyst","USD","US",0,"US","M",11.3103930375601
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",12.0725412529057
+2022,"MI","FT","Data Engineer","GBP","GB",0,"GB","M",11.4943337042791
+2022,"MI","FT","Data Analyst","USD","US",0,"US","S",10.9681982895286
+2022,"SE","FT","Data Engineer","USD","US",100,"US","L",12.1205147571685
+2022,"MI","FT","Data Analyst","GBP","GB",100,"GB","M",10.865726318313
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.1007121298723
+2022,"MI","FT","Data Scientist","GBP","GB",0,"GB","M",11.184171366743
+2022,"MI","FT","Data Scientist","GBP","GB",0,"GB","M",10.7321921968516
+2022,"MI","FT","Data Engineer","EUR","GR",100,"GR","M",11.0966369950282
+2022,"MI","FT","Data Engineer","EUR","GR",100,"GR","M",10.8089397592293
+2022,"MI","FT","Data Engineer","GBP","GB",100,"GB","M",11.2711850591236
+2022,"MI","FT","Data Engineer","GBP","GB",100,"GB","M",10.9834944968787
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.4684369099977
+2022,"SE","FT","Data Science Engineer","USD","AR",100,"MX","L",11.0020998412042
+2022,"MI","FT","Data Engineer","USD","US",0,"US","M",11.0650746403656
+2022,"MI","FT","Machine Learning Scientist","USD","US",100,"US","L",11.982929094216
+2022,"MI","FT","Machine Learning Scientist","USD","US",100,"US","L",11.6289291407265
+2022,"MI","FT","Data Science Manager","USD","US",100,"US","M",12.3925522124728
+2022,"MI","FT","Data Science Manager","USD","US",100,"US","M",11.9766594812024
+2022,"SE","FT","Data Scientist","USD","US",0,"US","M",12.1007121298723
+2022,"SE","FT","Data Scientist","USD","US",0,"US","M",11.289781913656
+2022,"MI","FT","Data Engineer","USD","US",0,"US","M",11.3253903411234
+2022,"SE","FT","Data Engineer","USD","US",100,"US","L",11.5208936346194
+2022,"MI","FT","Data Engineer","EUR","ES",100,"ES","M",10.8089397592293
+2022,"SE","FT","Data Scientist","USD","US",0,"US","L",11.8522507705738
+2022,"MI","FT","Data Analyst","GBP","GB",100,"GB","M",10.5780378785637
+2022,"MI","FT","Data Analyst","EUR","ES",100,"ES","M",10.6911718869201
+2022,"MI","FT","Data Analyst","EUR","ES",100,"ES","M",10.4034746511211
+2022,"MI","FT","Data Engineer","EUR","ES",100,"ES","M",11.38431906748
+2022,"MI","FT","Data Engineer","EUR","ES",100,"ES","M",11.2507811763063
+2022,"MI","FT","Data Engineer","GBP","GB",100,"GB","M",11.5588734988729
+2022,"MI","FT","Data Engineer","GBP","GB",100,"GB","M",11.4253393774116
+2022,"MI","FT","Data Engineer","EUR","ES",100,"ES","M",11.0966369950282
+2022,"MI","FT","Data Engineer","EUR","GR",100,"GR","M",11.38431906748
+2022,"SE","FT","Machine Learning Engineer","USD","US",0,"US","M",12.152935547117
+2022,"SE","FT","Machine Learning Engineer","USD","US",0,"US","M",12.0136765101646
+2022,"MI","FT","Data Analyst","EUR","GR",100,"GR","M",10.6911718869201
+2022,"MI","FT","Data Analyst","EUR","GR",100,"GR","M",10.4034746511211
+2022,"MI","FT","Data Engineer","GBP","GB",100,"GB","M",11.4943337042791
+2022,"MI","FT","Data Engineer","GBP","GB",100,"GB","M",11.2711850591236
+2022,"SE","FT","Data Scientist","USD","US",0,"US","L",12.2797876833525
+2022,"MI","FT","Data Engineer","EUR","GR",100,"GR","M",11.2507811763063
+2022,"SE","FT","Data Engineer","USD","US",100,"US","L",12.2505678854167
+2022,"SE","FT","Data Engineer","USD","US",100,"US","L",11.9485964151355
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",12.1007121298723
+2022,"EN","FT","ML Engineer","EUR","PT",100,"PT","L",9.99802470636012
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.289781913656
+2022,"MI","FT","Machine Learning Developer","CAD","CA",100,"CA","M",11.2745540561252
+2022,"EX","FT","Director of Data Science","CAD","CA",50,"CA","L",12.1908524030533
+2022,"MI","FT","Machine Learning Engineer","USD","US",100,"US","S",11.6952470217642
+2022,"EN","FT","Computer Vision Engineer","USD","US",0,"US","M",11.7360690162844
+2022,"MI","FT","NLP Engineer","CNY","US",50,"US","L",10.5250313142364
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.5617156291397
+2022,"SE","FT","Lead Machine Learning Engineer","EUR","DE",0,"DE","M",11.38431906748
+2022,"MI","FT","Business Data Analyst","INR","IN",100,"IN","M",9.82238595109909
+2022,"MI","FT","Data Scientist","INR","IN",100,"IN","L",10.3613869704927
+2022,"MI","FT","Machine Learning Infrastructure Engineer","EUR","PT",50,"PT","L",10.972585204654
+2022,"EN","FT","Financial Data Analyst","USD","US",50,"US","L",11.5129254649702
+2022,"MI","PT","Data Engineer","EUR","DE",50,"DE","L",10.9143063402536
+2022,"EN","FT","Data Scientist","INR","IN",100,"IN","M",9.82238595109909
+2022,"SE","FT","Principal Data Scientist","EUR","DE",100,"DE","M",11.9995034771182
+2022,"EN","FT","Data Engineer","USD","US",100,"US","M",11.6952470217642
+2022,"SE","FT","Research Scientist","USD","US",50,"US","L",11.8775685785581
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.5606674609556
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.5129254649702
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.8493977015914
+2022,"MI","FT","Data Analyst","USD","US",100,"US","M",11.8130300574206
+2022,"MI","FT","Data Analyst","USD","US",100,"US","M",10.8197782844103
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.3013828253345
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.8493977015914
+2022,"MI","FT","Data Scientist","GBP","GB",0,"GB","M",12.1184865579715
+2022,"MI","FT","Data Scientist","GBP","GB",0,"GB","M",11.4253393774116
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.1286514985616
+2022,"SE","FT","Machine Learning Engineer","USD","US",100,"US","M",12.3013828253345
+2022,"MI","FT","Data Scientist","USD","US",100,"US","M",12.2060726455302
+2022,"MI","FT","Data Scientist","USD","US",100,"US","M",11.6952470217642
+2022,"SE","FT","Machine Learning Engineer","USD","AE",100,"AE","S",11.6952470217642
+2022,"SE","FT","Machine Learning Engineer","USD","AE",100,"AE","S",11.0821425488778
+2022,"EX","FT","Data Engineer","USD","US",100,"US","M",12.6884987947745
+2022,"EX","FT","Data Engineer","USD","US",100,"US","M",12.2830336866663
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",12.2548628096996
+2022,"SE","FT","Machine Learning Engineer","USD","US",100,"US","M",11.6952470217642
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.3458345879053
+2022,"EN","PT","Data Scientist","USD","DZ",50,"DZ","M",11.5129254649702
+2022,"MI","FL","Data Scientist","USD","CA",100,"US","M",11.5129254649702
+2022,"EN","CT","Applied Machine Learning Scientist","EUR","TN",100,"CZ","M",10.3695772824607
+2022,"SE","FT","Head of Data","USD","MY",100,"US","M",12.2060726455302
+2022,"MI","FT","Principal Data Analyst","USD","CA",100,"CA","S",11.2252433925184
+2022,"MI","FT","Data Scientist","PLN","PL",100,"PL","L",10.4798199785042
+2022,"SE","FT","Machine Learning Developer","CAD","CA",100,"CA","M",11.2745540561252
+2022,"SE","FT","Data Scientist","USD","BR",100,"US","M",11.5129254649702
+2022,"MI","FT","Machine Learning Scientist","USD","US",50,"US","M",11.9381932003746
+2022,"EN","FT","Data Engineer","EUR","PK",100,"DE","M",10.9688015558027
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.0137007528827
+2022,"SE","FT","Research Scientist","EUR","FR",50,"FR","L",11.4449356616707
+2022,"EN","FT","Data Scientist","CAD","CA",100,"CA","L",10.8665855315175
+2022,"SE","FT","Machine Learning Engineer","EUR","NL",100,"NL","L",11.0453349218888
+2022,"MI","FT","Head of Data","EUR","EE",100,"EE","S",10.4034746511211
+2022,"EN","FT","Data Scientist","USD","JP",100,"MY","L",10.5966347330961
+2022,"MI","FT","Machine Learning Engineer","AUD","AU",100,"AU","L",11.3785365619316
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.6526874073454
+2022,"EN","FT","Data Scientist","AUD","AU",50,"AU","M",11.3702437642461
+2022,"MI","FT","Applied Machine Learning Scientist","USD","BO",100,"US","L",11.2252433925184
+2022,"MI","FT","Research Scientist","EUR","AT",0,"AT","L",11.0798167694252
+2022,"EN","FT","Research Scientist","USD","US",100,"US","L",11.6952470217642
+2022,"MI","FT","Applied Data Scientist","USD","US",100,"US","L",11.9640010843304
+2022,"EN","FT","Computer Vision Software Engineer","USD","AU",100,"AU","S",11.9183905730784
+2022,"MI","FT","Business Data Analyst","CAD","CA",50,"CA","L",11.1691949506669
+2022,"EN","FT","Data Engineer","USD","US",100,"US","S",11.0821425488778
+2022,"SE","FT","Machine Learning Engineer","EUR","IE",100,"IE","S",11.1766692050244
+2022,"EN","FT","Data Analytics Engineer","USD","PK",0,"PK","M",9.90348755253613
+2022,"MI","FT","Data Scientist","USD","RU",100,"US","S",10.77895628989
+2022,"SE","FT","Data Science Manager","USD","US",100,"US","M",11.9349198750296
+2022,"MI","FT","Data Engineer","EUR","FR",100,"FR","M",11.1294224156128
+2022,"MI","FT","Data Scientist","CHF","CH",0,"CH","L",11.7146083752428
+2022,"SE","FT","Applied Data Scientist","USD","US",100,"US","L",12.8479265317026
+2022,"MI","FT","Data Scientist","CAD","CA",100,"CA","M",11.1467195308142
+2022,"EN","FT","Computer Vision Engineer","USD","PT",100,"LU","M",9.21034037197618
+2022,"MI","FT","Data Analyst","USD","GR",100,"GR","S",9.90348755253613
+2022,"SE","FT","Data Analytics Lead","USD","US",100,"US","L",12.9116423460887
+2022,"MI","FT","Data Scientist","USD","US",100,"US","L",11.8130300574206
+2022,"SE","FT","Applied Data Scientist","USD","US",100,"US","L",12.083905011556
+2022,"MI","FT","Data Scientist","USD","US",100,"US","M",11.2644641056717
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.8130300574206
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.5129254649702
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.4111141988235
+2022,"MI","FT","Data Analyst","USD","CA",0,"CA","M",11.3504065354725
+2022,"MI","FT","Data Analyst","USD","CA",0,"CA","M",11.2252433925184
+2022,"SE","FT","Machine Learning Engineer","USD","US",100,"US","M",12.273731294004
+2022,"SE","FT","Machine Learning Engineer","USD","US",100,"US","M",12.1683707783462
+2022,"SE","FT","Data Architect","USD","US",100,"US","M",12.4927542176484
+2022,"SE","FT","Data Architect","USD","US",100,"US","M",12.2696106663342
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.6342577501378
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.9511803959014
+2022,"MI","FT","Data Scientist","USD","US",0,"US","M",11.8586405686726
+2022,"MI","FT","Data Scientist","USD","US",0,"US","M",11.5337080041528
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.660776342649
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.3103930375601
+2022,"MI","FT","Data Engineer","USD","US",0,"US","M",12.2390189077288
+2022,"MI","FT","Data Engineer","USD","US",0,"US","M",11.5038847203181
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.7752897294377
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.6526874073454
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.6127707999399
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.7752897294377
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.5033800521267
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.982929094216
+2022,"SE","FT","Data Scientist","USD","US",0,"US","L",12.232227603007
+2022,"SE","FT","Data Scientist","USD","US",0,"US","L",11.8522507705738
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.0782392740203
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.8775685785581
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",12.2065725205718
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.982929094216
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.8844890214027
+2022,"SE","FT","Data Engineer","USD","US",0,"US","M",11.1633679888004
+2022,"SE","FT","Data Scientist","USD","US",0,"US","M",12.232227603007
+2022,"SE","FT","Data Scientist","USD","US",0,"US","M",11.8522507705738
+2022,"SE","FT","Analytics Engineer","USD","US",0,"US","M",12.232227603007
+2022,"SE","FT","Analytics Engineer","USD","US",0,"US","M",12.1264881661873
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",12.0731125182739
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.8511818233849
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.6626377381986
+2022,"SE","FT","Data Engineer","USD","US",0,"US","M",10.8967393255464
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",12.0435537160324
+2022,"MI","FT","Data Analyst","GBP","GB",0,"GB","M",11.0888584084624
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.289781913656
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.8493977015914
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.2548628096996
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.8493977015914
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.5129254649702
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.1418617835794
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.2548628096996
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.8493977015914
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.2548628096996
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.91889044812
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.5129254649702
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",10.1266311038503
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.7479975871497
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.5736442000049
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",12.3018827003761
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.9834289692576
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.5617156291397
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.6166095762471
+2022,"MI","FT","Data Analyst","GBP","GB",0,"GB","M",10.7321921968516
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.8493977015914
+2022,"SE","FT","Data Analyst","USD","US",0,"US","M",11.5028751291167
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.0020998412042
+2022,"SE","FT","Data Architect","USD","US",100,"US","M",12.1681838449874
+2022,"SE","FT","Data Architect","USD","US",100,"US","M",11.8834816175901
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.3458345879053
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",11.9183905730784
+2022,"SE","FT","Data Analytics Manager","USD","US",100,"US","M",11.9201224059232
+2022,"SE","FT","Data Analytics Manager","USD","US",100,"US","M",11.6016686748046
+2022,"SE","FT","Data Scientist","USD","US",100,"US","M",12.2548628096996
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",12.0435537160324
+2022,"MI","FT","Data Scientist","USD","US",100,"US","M",11.982929094216
+2022,"MI","FT","Data Scientist","USD","US",100,"US","M",11.7752897294377
+2022,"EN","FT","Data Analyst","USD","CA",0,"CA","M",11.1124478983731
+2022,"EN","FT","Data Analyst","USD","CA",0,"CA","M",10.8589989975636
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.9447078813958
+2022,"SE","FT","Data Engineer","USD","US",100,"US","M",11.7440371859336
+2022,"SE","FT","Data Analyst","USD","US",0,"US","M",11.7675676833438
+2022,"SE","FT","Data Analyst","USD","US",100,"US","M",11.9183905730784
+2022,"MI","FT","AI Scientist","USD","IN",100,"US","L",12.2060726455302
