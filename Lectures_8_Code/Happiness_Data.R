@@ -1,23 +1,28 @@
 ### Happiness data parsing #
-data = read.csv("2018.csv")
+data = read.csv("Datasets/happiness/2018.csv")
 
 data$Perceptions.of.corruption
 data$Perceptions.of.corruption = as.numeric(as.character(
   data$Perceptions.of.corruption))
+
+
 
 #Remove country 20, missing data
 data = data[complete.cases(data),]
 require(GGally)
 
 pairs_data = data[,3:9]
+data$Overall.rank = data$Country.or.region =  NULL
+data = data[,c(-1,-2)]
+
 ggpairs(pairs_data)
 
 install.packages("regclass")
 require(regclass)
 
-install.packages("car")
-require(car)
-vif(mdl)
+#install.packages("car")
+#require(car)
+#vif(mdl)
 
 mdl = lm(Score ~ .,data=pairs_data)
 VIF(mdl)
@@ -25,7 +30,7 @@ VIF(mdl)
 tmp = pairs_data
 tmp$GDP.per.capita = NULL
 
-mdl_without_gdp = lm(Score ~ .,data=tmp)
+mdl_without_gdp = lm(Score ~ I(x^2).,data=tmp)
 VIF(mdl_without_gdp)
 
 mdl = mdl_without_gdp
@@ -34,7 +39,7 @@ mdl = lm(Score ~ GDP.per.capita +  Freedom.to.make.life.choices + Perceptions.of
          data=pairs_data)
 
 
-plot(mdl)
+plot(mdl,which=3)
 
 
 
