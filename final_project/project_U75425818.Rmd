@@ -1,0 +1,99 @@
+---
+title: "Final Project - Abraham Cepeda - U75425818"
+output: html_notebook
+---
+
+
+```{r Read data}
+
+raw_data = read.csv('heart_2020.csv', header = TRUE)
+
+#Convert boolean variables to 0 and 1
+raw_data$HeartDisease <- ifelse(raw_data$HeartDisease == "Yes", 1, 0)
+raw_data$Smoking <- ifelse(raw_data$Smoking == "Yes", 1, 0)
+raw_data$AlcoholDrinking <- ifelse(raw_data$AlcoholDrinking == "Yes", 1, 0)
+raw_data$Stroke <- ifelse(raw_data$Stroke == "Yes", 1, 0)
+raw_data$DiffWalking <- ifelse(raw_data$DiffWalking == "Yes", 1, 0)
+raw_data$Diabetic <- ifelse(raw_data$Diabetic == "Yes", 1, ifelse(raw_data$Diabetic == "Yes (during pregnancy)", 1, 0))
+raw_data$PhysicalActivity <- ifelse(raw_data$PhysicalActivity == "Yes", 1, 0)
+raw_data$Asthma <- ifelse(raw_data$Asthma == "Yes", 1, 0)
+raw_data$KidneyDisease <- ifelse(raw_data$KidneyDisease == "Yes", 1, 0)
+raw_data$SkinCancer <- ifelse(raw_data$SkinCancer == "Yes", 1, 0)
+head(raw_data)
+
+```
+```{r Filter data}
+
+data <- raw_data[,c("HeartDisease","Smoking","AlcoholDrinking","PhysicalHealth","MentalHealth","SleepTime")]
+head(data)
+
+indices = sample(seq(1:319795))
+
+test = data[indices[1:63959],]
+train = data[-indices[1:63959],]
+
+```
+```{r Analyze data}
+# install.packages("aod")
+# install.packages("pROC")
+# install.packages("lmtest")
+library(aod)
+library(stats)
+library(pROC)
+library(lmtest)
+
+attach(train)
+cor(train)
+
+#Calculate critical value
+qnorm(0.975)
+
+#Compute model
+my.model <- glm(HeartDisease ~ Smoking + AlcoholDrinking + PhysicalHealth +  MentalHealth + SleepTime, data=train, family=binomial)
+summary(my.model)
+
+#Model without Alchohol Drinking and MentalHealth1
+my.model2 <- glm(HeartDisease ~ Smoking + PhysicalHealth + SleepTime, data=train, family=binomial)
+summary(my.model2)
+
+#Compare log likelihood between both models
+lrtest(my.model,my.model2)
+
+```
+
+```{r Prediction model}
+# install.packages("aod")
+# install.packages("pROC")
+# install.packages("lmtest")
+library(aod)
+library(stats)
+library(pROC)
+library(InformationValue)
+
+#packageurl <- "http://cran.r-project.org/src/contrib/Archive/InformationValue/InformationValue_1.2.3.tar.gz"
+#install.packages(packageurl, contriburl=NULL, type="source")
+
+#Plot Area under ROC curce
+test$prediction <- predict(my.model, test, type=c("response"))
+g <- roc(test$HeartDisease ~ test$prediction)
+print(g)
+plot(1-g$specificities, g$sensitivities, type="l", xlab="1-specificity",
+     ylab="Sensitivity", main="ROC  curve")
+abline(a=0, b=1)
+
+train$prediction <- predict(my.model, train, type=c("response"))
+
+
+optCutOff <- optimalCutoff(actuals=train$HeartDisease, predictedScores=train$prediction,
+                           optimiseFor="Both", returnDiagnostics=TRUE)
+
+print(optCutOff$optimalCutoff)
+
+test$pred_heart_disease = ifelse(test$prediction>=optCutOff$optimalCutoff,1,0)
+c2 = confusionMatrix(test$HeartDisease,test$pred_heart_disease,threshold=optCutOff$optimalCutoff)
+
+table(test$HeartDisease,test$pred_heart_disease)
+print(sens <- c2[2,2] / (c2[2,2] + c2[1,2]))
+print(spec <- c2[1,1] / (c2[1,1] + c2[2,1]))
+
+```
